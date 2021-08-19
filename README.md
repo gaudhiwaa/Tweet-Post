@@ -6,4 +6,4 @@ https://gaudhiwaa.github.io/tweet/
 
 ![GitHub Logo](/Demo.png)
 
-This mini project intended for exercise.
+P.S This mini project intended for exercise.
