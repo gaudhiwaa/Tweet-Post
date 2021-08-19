@@ -1,9 +1,11 @@
-# Tweet Post
-This is my mini project : Post bar to send message or post. Inspired by Twitter.
+# About
+This is my mini project : Post bar to send message or post. Where you can tweet whatever you want. Inspired by Twitter.
 
-📌 You can check the demo project here :
+# 📌 Live Demo
+You can check the demo project here :
 https://gaudhiwaa.github.io/Tweet-Post/
 
+# User Interface
 ![GitHub Logo](/Demo.png)
 
-P.S This mini project intended for exercise.
+P.S This project intended for exercise.
