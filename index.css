@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+  padding: 0px 3px 0px 3px;
+  margin: 5px 0 5px 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+body{
+  background-image: radial-gradient(#1CB5E0, #000046);
+}
+
+/* 1. main or middle */
+main{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  color: white;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+/* 1.1 posting bar*/
+.posting-bar{
+  border-radius: 7px;
+  background-color: #1CA2F3;
+  padding: 5px 20px 5px 20px;
+  width: 600px;
+}
+
+/* 1.1.1 posting title */
+.posting-bar .post-title{
+  font-size: 13px;
+}
+
+/* 1.1.2 image & message  */
+.img-message{
+  display: flex;
+}
+.img-message img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.img-message textarea{
+  padding: 5px 5px 5px 5px;
+  margin-left: 7px;
+  width: 580px;
+  height: 50px;
+  font-size: 18px;
+  background: transparent;
+  border: none;
+  color: white;
+  outline: none
+}
+
+.img-message textarea::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+
+/* 1.1.3 tools */
+.tools{
+  display: flex;
+  justify-content: flex-end;
+}
+.tools span{
+  margin-left: 72px;
+}
+.tools .material-icons{
+  font-size:30px;
+  padding-top: 2px;
+}
+.tools .post button{
+  border-radius: 7px;
+  width: 80px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: 800;
+  cursor: pointer;
+  background-color: #1c1c45;
+  color: white;
+}
+
+/* 1.2.1 general post */
+.post-general{
+  border-radius: 7px;
+  background-color: #1CA2F3;
+  width: 605px;
+  height: 590px;
+  padding: 5px 20px 5px 15px;
+  overflow: auto;
+}
+.post-general ul{
+  list-style: none;
+  margin-left: 7px;
+}
+.post-general ul li{
+  display: grid;
+  grid-template-areas: "image name delete"
+                       "image message message"
+                       "hr hr hr";
+  grid-template-columns: 1fr 7fr 0.3fr;
+  grid-template-rows: 3fr 3fr 0.1fr;
+}
+.post-general ul img{
+  grid-area: image;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-left: -5px;
+}
+.post-general ul li h3{
+  grid-area: name;
+  margin-top: 9px;
+  margin-left: -8px;
+}
+.post-general ul li span{
+  grid-area: delete;
+  margin-left: 6px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.post-general ul li p{
+  grid-area: message;
+  margin-top: 3px;
+  margin-left: -8px;
+  font-size: 18px;
+}
+hr{
+  grid-area: hr;
+}

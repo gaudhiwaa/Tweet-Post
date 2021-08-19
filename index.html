@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Message</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
+     <!-- 1. main or middle  -->
+    <main>
+      <!-- 1.1 posting bar -->
+      <div class="posting-bar">
+         <!-- 1.1.1 title -->
+        <div class="post-title">
+          <h1>Home</h1><hr>
+        </div>
+        <!-- 1.1.2 image & message -->
+        <div class="img-message">
+          <img src="profile.png" alt="">
+          <textarea name="message" id="message" rows="5" cols="110" style="resize: none;" placeholder="What i think"></textarea>
+        </div>
+        <!-- 1.1.3 tools -->
+        <div class="tools">
+          <div class="post"><button type="button" onclick="addMessage()">Post</button></div>
+        </div>
+      </div>
+      <!-- 1.2.1 general post -->
+      <div class="post-general">
+        <ul id="todo"></ul>
+      </div>
+      <script src="index.js"></script>
+    </main>
+  </body>
+</html>
