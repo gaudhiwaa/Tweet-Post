@@ -1,4 +1,4 @@
-# tweet
+# Tweet Post
 Post bar to send message or post, inspired by Twitter.
 
 📌 You can check the demo project here :
